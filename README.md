@@ -4,6 +4,9 @@
 
 Implement the social media buttons in the oxid shop with shariff.
 
+![](detail.png)
+![](footer.png)
+
 This extension was created for Oxid 6.x.
 
 ## Install
