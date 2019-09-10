@@ -2,15 +2,22 @@
 
 # Install
 
-Add following to composer.json on the shop root
+1. Copy module into following directory
+        
+        source/modules/rs/shariff
+        
+2. Add following to composer.json on the shop root
 
-    "autoload": {
-        "psr-4": {
-            "rs\\shariff\\": "./source/modules/rs/shariff"
-        }
-    },
+        "autoload": {
+            "psr-4": {
+                "rs\\shariff\\": "./source/modules/rs/shariff"
+            }
+        },
     
-Refresh autoloader files with composer.
+3. Refresh autoloader files with composer.
+4. Enable module in the oxid admin area, Extensions => Modules
+5. Changes settings in the module itself
+![](settings.png)
 
 # More informations
 
