@@ -1,0 +1,7 @@
+[{assign var="oConfig" value=$oViewConf->getConfig()}]
+[{assign var="bWithJQuery" value=$oConfig->getConfigParam('rs-shariff_with_jquery')}]
+[{if $bWithJQuery=="1"}]
+    [{oxscript include=$oViewConf->getModuleUrl("rs-shariff", "out/src/shariff/shariff.complete.js")}]
+[{else}]
+    [{oxscript include=$oViewConf->getModuleUrl("rs-shariff", "out/src/shariff/shariff.min.js")}]
+[{/if}]

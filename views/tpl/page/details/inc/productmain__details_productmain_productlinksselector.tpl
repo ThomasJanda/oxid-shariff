@@ -1,0 +1,1 @@
+[{$oViewConf->getShariffButton('detail_page')}]
