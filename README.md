@@ -18,7 +18,10 @@ Implement the social media buttons in the oxid shop with shariff.
             }
         },
     
-3. Refresh autoloader files with composer.
+3. Refresh autoloader files with composer in the oxid root directory.
+
+        composer dump-autoload
+        
 4. Enable module in the oxid admin area, Extensions => Modules
 5. Changes settings in the module itself
 
