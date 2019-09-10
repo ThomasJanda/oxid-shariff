@@ -1,6 +1,10 @@
 # Oxid Shariff
 
-# Install
+## Description
+
+Implement the social media buttons in the oxid shop with shariff.
+
+## Install
 
 1. Copy module into following directory
         
@@ -20,7 +24,7 @@
 
 ![](settings.png)
 
-# More informations
+## More informations
 
 Shariff Version 3.2.0
 
